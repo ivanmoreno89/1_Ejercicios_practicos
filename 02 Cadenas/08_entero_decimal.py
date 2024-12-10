@@ -3,6 +3,16 @@
 # pantalla el número de euros y el número de céntimos del
 # precio introducido.
 
+""" entero decimal
+
+Entradas:
+precio (float): precio ingresado por el usuario
+entero (int): entero extraido del precio
+decimal (float): decimal resultado de la resta entre 'precio' y 'entero'
+
+Salidas:
+(str): print con información de entero y decimal por separado """
+
 precio = float(input("Ingresar el precio del producto: "))
 entero = int(precio)
 decimal = precio - int(precio)

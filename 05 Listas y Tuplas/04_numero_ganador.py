@@ -3,14 +3,13 @@
 # lista y los muestre por pantalla ordenados de menor a mayor.
 
 
-""" [Resumen]
+""" Número ganador
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+loteria_ganadora (list): Valores de lotería ingresados por el usuario
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): Print indicando que los números ingresados son los ganadores """
 
 # Variables
 loteria_ganadora = []

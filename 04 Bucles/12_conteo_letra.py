@@ -3,14 +3,14 @@
 # número de veces que aparece la letra en la frase.
 
 
-""" [Resumen]
+""" Conteo de letras
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+frase (str): Frase ingresada por el usuario
+letra (str): letra ingresada por el usuario
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): print indicando cuantas veces se encuentra la letra en la frase """
 
 frase = input("Introduzca una frase:\n")
 letra = input("Introduzca una letra:\n")

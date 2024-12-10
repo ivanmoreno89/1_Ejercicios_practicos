@@ -6,6 +6,14 @@
 # en mayúscula. El usuario puede introducir su nombre combinando
 # mayúsculas y minúsculas como quiera.
 
+""" Mayusculas y minusculas
+
+Entradas:
+nombre (str): nombre ingresado por el usuario
+
+Salidas:
+(str): print con nombre en mayuscula, minuscula y tipo titulo """
+
 nombre = input("Ingrese su nombre completo: ")
 print(nombre.lower())
 print(nombre.upper())

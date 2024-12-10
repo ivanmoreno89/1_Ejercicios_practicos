@@ -3,14 +3,14 @@
 # la palabra introducida empezando por la última.
 
 
-""" [Resumen]
+""" Palabra invertida
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+palabra (str): Palabra ingresada por el usuario
+palabra_invertida (str): palabra inversida
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): print de la palabra invertida letra por letra """
 
 palabra = input("Introduzca una palabra:\n")
 palabra_invertida = reversed(palabra)

@@ -2,14 +2,15 @@
 # siguientes precios, 50, 75, 46, 22, 80, 65, 8, y
 # muestre por pantalla el menor y el mayor de los precios.
 
-""" [Resumen]
+""" Precio mínimo y máximo
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+preios (list): Lista de precios
+minimo (int): Precio mínimo de la lista
+maximo (int): Precio máximo de la lista
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): Print con información del precio mínimo y el máximo """
 
 # Variables de entrada
 precios = [50, 75, 46, 22, 80, 65, 8]

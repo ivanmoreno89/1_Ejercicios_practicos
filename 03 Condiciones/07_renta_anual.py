@@ -11,6 +11,15 @@
 # Escribir un programa que pregunte al usuario su renta anual
 # y muestre por pantalla el tipo impositivo que le corresponde.
 
+""" Renta anual
+
+Variables:
+renta anual (int): valor de renta anual.
+tipo_impositivo (float): cifra o porcentaje que se aplica para obtener como resultado la cuota íntegra.
+
+Resultado:
+(str): print con error de información ingresada o el valor a cancelar """
+
 renta_anual = int(input("Ingrese su renta anual: "))
 tipo_impositivo = float(0)
 

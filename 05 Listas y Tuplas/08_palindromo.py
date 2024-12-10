@@ -1,14 +1,14 @@
 # Escribir un programa que pida al usuario una palabra
 # y muestre por pantalla si es un palíndromo.
 
-""" [Resumen]
+""" Palindromo
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+palabra (str): Palabra ingresada por el usuario
+palindromo (str): Palabra invertida
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): Print con confirmando si la palabra es o no un palindromo """
 
 #variables
 palabra = list(str(input("Escriba una palabra:\n")))

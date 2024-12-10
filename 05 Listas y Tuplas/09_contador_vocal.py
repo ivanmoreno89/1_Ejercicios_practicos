@@ -14,7 +14,7 @@ Salidas:
 
 # variables de entrada
 palabra = str(input("Ingrese una palabra:\n"))
-vocales = ("a", "e", "i", "o", "u")
+vocales = ["a", "e", "i", "o", "u"]
 
 for vocal in vocales:
     n = 0

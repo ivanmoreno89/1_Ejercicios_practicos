@@ -4,14 +4,16 @@
 # símbolo o un mensaje de aviso si la divisa no está
 # en el diccionario.
 
-""" [Resumen]
+""" Divisas almacenadas
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+diccionario (Dict): Diccionario de divisas
+user_divisa (str): divisa ingresada por el usuario
+divisa (str): Key del diccionario
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): Print informando que la divisa ingresada por el
+usuario se encuentra o no en el diccionario """
 
 # Variables de entrada
 diccionario = {

@@ -4,6 +4,15 @@
 # usuario su edad y sus ingresos mensuales y muestre por
 # pantalla si el usuario tiene que tributar o no.
 
+""" Edad para tributar
+
+Entradas:
+edad (int): edad ingresada por el usuario
+ingresos (int): ingresos ingresados por el usuario
+
+Salidas:
+(str): print indicando si debe tributar o no. """
+
 edad = int(input("Ingrese su edad: "))
 
 if edad >= 16:

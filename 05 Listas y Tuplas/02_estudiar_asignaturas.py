@@ -4,14 +4,13 @@
 # pantalla el mensaje Yo estudio <asignatura>, donde
 # <asignatura> es cada una de las asignaturas de la lista.
 
-""" [Resumen]
+""" Asignaturas en curso
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+asignaturas (list): lista de asignaturas
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): print indicando las asignaturas que se estudian """
 
 asignaturas = ["Matematicas", "Física", "Química", "Historia", "Lengua"]
 for asignatura in asignaturas:

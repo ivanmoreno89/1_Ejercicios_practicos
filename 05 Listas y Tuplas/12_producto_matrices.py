@@ -6,14 +6,15 @@
 # usar listas anidadas, representando cada vector
 # fila en una lista.
 
-""" [Resumen]
+""" Producto Matrices
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+matriz_a (list): Matriz a
+matriz_b (list): Matriz b
+matriz_c (list): Matriz resultado
 
 Salidas:
-(Tipo): Resultado esperado """
+(list): Producto entre matrices a y b """
 
 # Variables de entrada
 matriz_a = [[1, 2, 3],

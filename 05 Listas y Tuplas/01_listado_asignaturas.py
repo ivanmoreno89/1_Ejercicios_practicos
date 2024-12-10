@@ -2,14 +2,13 @@
 # un curso (por ejemplo Matemáticas, Física, Química,
 # Historia y Lengua) en una lista y la muestre por pantalla.
 
-""" [Resumen]
+""" Listado de asignaturas
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+asignaturas (list): Listado de asignarutas
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): print cono asignaturas """
 
 asignaturas = ["Matematicas", "Física", "Química", "Historia", "Lengua"]
 print(asignaturas)

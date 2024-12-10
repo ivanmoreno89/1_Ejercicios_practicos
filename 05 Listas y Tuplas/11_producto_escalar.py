@@ -3,17 +3,19 @@
 # pantalla su producto escalar.
 
 
-""" [Resumen]
+""" Producto Escalar
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+vector1 (list): vector 1
+vector2 (list): vector 2
+vector3 (list): multiplicación entre vectores 1 y 2
+escalar (int): escalar del vector 3s
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): print con resultado de la escalar de los vectores 1 y 2 """
 
-vector1 = (1, 2, 3)
-vector2 = (-1, 0, 2)
+vector1 = [1, 2, 3]
+vector2 = [-1, 0, 2]
 vector3 = []
 escalar = 0
 

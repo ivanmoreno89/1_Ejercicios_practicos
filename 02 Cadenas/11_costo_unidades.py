@@ -9,6 +9,16 @@
 # precio = 630.25             # input("Escriba el precio del producto: ")
 # unidades = 200              # input("Escriba la cantidad de unidades del producto: ")
 
+""" Costo de unidades
+
+Entradas:
+producto (str): Nombre del producto ingresado por el usuario
+precio (float): Precio del producto ingresado por el usuario
+unidades (float): Unidades del producto ingresado por el usuario
+
+Salidas:
+(str): print indicando el costo total de los productos """
+
 producto = input("Escriba el nombre del producto: ")
 precio = float(input("Escriba el precio del producto: "))
 unidades = float(input("Escriba la cantidad de unidades del producto: "))

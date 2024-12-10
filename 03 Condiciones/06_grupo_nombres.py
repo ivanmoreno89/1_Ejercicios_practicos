@@ -5,6 +5,15 @@
 # Escribir un programa que pregunte al usuario su nombre y
 # genero y muestre por pantalla el grupo que le corresponde.
 
+""" Grupo de nombres
+
+Entradas:
+nombre (str): Nombre ingresado por el usuario
+genero (str): genero ingresado por el usuario
+
+Salidas:
+(str): Print indicando si pertenece al grupo a o b. También indica error. """
+
 nombre = input("Cuál es tu nombre?: ")
 genero = input("Cuál es tu genero?: ")
 

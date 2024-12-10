@@ -5,6 +5,14 @@
 # un número de teléfono con este formato y muestre por pantalla
 # el número de teléfono sin el prefijo y la extensión.
  
+""" Numero telefonico
+
+Entradas:
+numero_telefono (str): número de telefono ingresado por el usuario
+
+Salidas:
+(str): Print con código de país, número de telefono y extensión por separado """
+
 numero_telefono = str(input("Digite el número de telefono: "))
 
 print(f"El código del país es {numero_telefono[0:3]}")

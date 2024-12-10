@@ -7,14 +7,14 @@
 # las asignaturas de la lista y <nota> cada una de las
 # correspondientes notas introducidas por el usuario.
 
-""" [Resumen]
+""" Notas de asignaturas
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+asignaturas (list): Lista de asignaturas
+notas (list): lista de notas vacía
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): Print con asignaturas y notas ingresadas por cada asignatura """
 
 asignaturas = ["Matematicas", "Física", "Química", "Historia", "Lengua"]
 notas = []

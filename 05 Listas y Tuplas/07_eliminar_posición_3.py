@@ -3,14 +3,14 @@
 # posiciones múltiplos de 3, y muestre por pantalla la
 # lista resultante.
 
-""" [Resumen]
+""" Eliminar posición de una lista
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+n (int): Valor inicial
+abc (list): Abecedario en lista
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): print con abecedario filtrando posiciones multiplos de 3 """
 
 #Variables
 n = 0

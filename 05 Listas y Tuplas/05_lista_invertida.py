@@ -3,14 +3,13 @@
 # orden inverso separados por comas.
 
 
-""" [Resumen]
+""" Lista invertida
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+numeros (list): lista de valores
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): Print con lista invertida """
 
 numeros = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 

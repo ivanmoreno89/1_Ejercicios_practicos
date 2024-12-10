@@ -2,14 +2,13 @@
 # lo que el usuario introduzca hasta que el usuario
 # escriba "salir" que terminará.
 
-""" [Resumen]
+""" Eco
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+frase (str): Información ingresada por el usuario
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): print hasta que el usuario escriba 'salir' """
 
 frase = ""
 while frase.lower() != "salir":

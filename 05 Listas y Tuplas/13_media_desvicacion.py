@@ -2,14 +2,14 @@
 # números, separados por comas, los guarde en una lista
 # y muestre por pantalla su media y desviación típica.
 
-""" [Resumen]
+""" Media y Desviación
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+cadena (str): cadena de valores ingresados por el usuario
+lista (list): Lista con valores convertidos a int desde 'cadena'
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): Print con resultados de media y desviación de los valores """
 
 # Variables de entrada
 cadena = input("Ingrese los valores separados por comas:\n")

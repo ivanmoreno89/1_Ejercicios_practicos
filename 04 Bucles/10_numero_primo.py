@@ -3,14 +3,14 @@
 # un número primo o no.
 
 
-""" [Resumen]
+""" número primo
 
 Entradas:
-Variable_01 (Tipo): [Descripción]
-Variable_02 (Tipo): [Descripción]
+numero (int): número ingresado por el usuario
+i (int): valor del residuo para el iterador
 
 Salidas:
-(Tipo): Resultado esperado """
+(str): print indicando si el número es primo o no """
 
 numero = int(input("Escriba un número entero:\n"))
 i = 2

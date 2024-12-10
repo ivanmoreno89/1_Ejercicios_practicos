@@ -4,6 +4,18 @@
 # que también funcione cuando el día o el mes se introduzcan
 # con un solo carácter.
 
+""" Fecha de nacimiento
+
+Entradas:
+fecha (str): Fecha de nacimiento ingresada por el usuario separada por '/'
+dia (str): día extraido de 'fecha'
+mes_año (str): mes y año extraidos de 'fecha'
+mes (str): mes extraido de 'mes_año'
+año (str): año extraido de 'mes_año'
+
+Salidas:
+(str): print con información de nacimiento por día, mes y año """
+
 fecha = str(input("Ingrese su fecha de nacimiento: "))
 dia = fecha[:fecha.find("/")]
 mes_año = fecha[fecha.find("/")+1:]
