@@ -9,7 +9,7 @@
 Entradas:
 fecha (str): Fecha de nacimiento ingresada por el usuario separada por '/'
 dia (str): día extraido de 'fecha'
-mes_año (str): mes y año extraidos de 'fecha'
+mes_anio (str): mes y año extraidos de 'fecha'
 mes (str): mes extraido de 'mes_año'
 año (str): año extraido de 'mes_año'
 
@@ -18,13 +18,13 @@ Salidas:
 
 fecha = str(input("Ingrese su fecha de nacimiento: "))
 dia = fecha[:fecha.find("/")]
-mes_año = fecha[fecha.find("/")+1:]
-mes = mes_año[:mes_año.find("/")]
-año = mes_año[mes_año.find("/")+1:]
+mes_anio = fecha[fecha.find("/")+1:]
+mes = mes_anio[:mes_anio.find("/")]
+anio = mes_anio[mes_anio.find("/")+1:]
 
 print(f"El día de nacimiento fue el {dia}")
 print(f"El mes de nacimiento fue el {mes}")
-print(f"El año de nacimiento fue el {año}")
+print(f"El año de nacimiento fue el {anio}")
 
 """print('El número de teléfono es ', fecha[4:-3])
 print(precio[:precio.find('.')], 'euros y', precio[precio.find('.')+1:], 'céntimos.')"""

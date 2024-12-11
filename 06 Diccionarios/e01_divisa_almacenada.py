@@ -16,18 +16,18 @@ Salidas:
 usuario se encuentra o no en el diccionario """
 
 # Variables de entrada
-diccionario = {
+divisas = {
     'Euro': '€',
     'Dollar': '$',
     'Yen': '¥'
 }
+
 user_divisa = input("Escriba la divisa:\n")
-for divisa in diccionario:
-    if divisa == user_divisa:
-        print(diccionario[divisa])
-    else:
-        print(f"La divisa {user_divisa} no se encuentra almacenada en el diccionario")
-        break
+if user_divisa in divisas:
+    print(divisas[user_divisa])
+else:
+    print(f"La divisa {user_divisa} no se encuentra almacenada en el diccionario")
+
 
 # monedas = {'Euro':'€', 'Dollar':'$', 'Yen':'¥'}
 # moneda = input("Introduce una divisa: ")
