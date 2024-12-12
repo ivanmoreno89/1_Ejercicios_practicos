@@ -26,5 +26,5 @@ print(f"El día de nacimiento fue el {dia}")
 print(f"El mes de nacimiento fue el {mes}")
 print(f"El año de nacimiento fue el {anio}")
 
-"""print('El número de teléfono es ', fecha[4:-3])
-print(precio[:precio.find('.')], 'euros y', precio[precio.find('.')+1:], 'céntimos.')"""
+# print('El número de teléfono es ', fecha[4:-3])
+# print(precio[:precio.find('.')], 'euros y', precio[precio.find('.')+1:], 'céntimos.')

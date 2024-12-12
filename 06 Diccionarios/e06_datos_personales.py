@@ -24,3 +24,12 @@ while choice == 'si':
     datos_personales[llave] = valor
     print(datos_personales)
     choice = input('Desea agregar información adicional (si/no):\n')
+
+# persona = {}
+# continuar = True
+# while continuar:
+#     clave = input('¿Qué dato quieres introducir? ')
+#     valor = input(clave + ': ')
+#     persona[clave] = valor
+#     print(persona)
+#     continuar = input('¿Quieres añadir más información (Si/No)? ') == "Si"
